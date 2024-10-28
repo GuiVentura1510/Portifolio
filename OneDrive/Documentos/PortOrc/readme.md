@@ -28,6 +28,3 @@ O objetivo deste projeto é apresentar meus trabalhos e habilidades como desenvo
     ```
 3. Abra o arquivo `index.html` no seu navegador preferido.
 
-## Contato
-
-Para mais informações, entre em contato pelo e-mail: [seu-email@example.com](mailto:seu-email@example.com)
