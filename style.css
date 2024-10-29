@@ -1,0 +1,288 @@
+/* Fontes */
+@font-face {
+    font-family: 'Pixel';
+    src: url('PixelifySans-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular';
+    src: url('Comfortaa-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Normas Gerais */
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+hr {
+    height: 2px;
+    margin-top: 7%;
+    margin-bottom: 2%;
+    width: 90%;
+}
+
+.subtitulo {
+    font-size: 100px;
+    margin-top: 120px;
+    color: antiquewhite;
+    text-indent: 150px;
+    text-decoration: underline;
+    margin-left: 150px;
+}
+
+.texto {
+    text-indent: 4%;
+    font-size: 75px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 250px;
+    margin-top: 50px;
+    line-height: 125%;
+}
+
+
+/* Menu */
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 40px;
+    position: sticky;
+    top: 0;
+}
+
+.menu-item {
+    font-size: 60px;
+    color: white;
+    text-decoration: none;
+    /*remove sublinhado*/
+    padding: 20px 15px;
+    transition: background-color 0.3s;
+}
+
+.menu-item:hover {
+    background-color: rgba(226, 125, 10, 0.445);
+}
+
+section {
+    scroll-margin-top: 150px;
+    padding-top: 50px;
+}
+
+/* Home */
+#home {
+    background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXdlZTJnYjZjNjJ5aWF4cTZ5b243dWk2dGg3czA5aWMzazZjamJ2dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QX6ZKC7HMcCKMQ4fH9/giphy-downsized-large.gif);
+    padding: 300px;
+
+}
+
+#titulo-home {
+    font-size: 200px;
+    font-family: 'Pixel';
+    color: rgb(255, 254, 254);
+    padding: 40px;
+    text-align: center;
+}
+
+#p-home {
+    font-family: 'Pixel';
+    ;
+    font-size: 75px;
+    text-align: center;
+    color: darkkhaki;
+}
+
+/* Sobre Mim */
+.introducao {
+    color: white;
+    font-size: 80px;
+    margin-left: 150px;
+}
+
+.container {
+    display: flex;
+    gap: 20%;
+}
+
+#secao1 {
+    background: linear-gradient(to right, #090947, black);
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 50px;
+    border: 2px solid #ccc;
+    height: 1000px;
+}
+
+#secao2 {
+    width: 30%;
+    height: 1500px;
+    margin-right: 10%;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    background: linear-gradient(to top, #090947, black);
+    /* Degradê de baixo para cima */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#minha-foto {
+    max-width: 100%;
+    height: 1250px;
+    border-radius: 300px;
+}
+
+/* Habilidades */
+ul li {
+    font-size: 75px;
+    margin-left: 250px;
+    line-height: 200%;
+}
+
+#sec {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1250px;
+    margin-right: 1250px;
+}
+
+#skills {
+    color: white;
+    font-size: 80px;
+    margin-left: 0;
+    text-decoration: underline;
+}
+
+.icon {
+    height: 200px;
+    list-style-type: none;
+
+}
+
+/* Hobbies */
+#pai {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#music-box {
+    height: 2000px;
+    width: 1500px;
+    background-color: #343947;
+    border-radius: 100px;
+}
+
+#music-footer {
+    width: 100%;
+    background-color: #1d212e;
+    height: 75%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+#img-batera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1500px;
+    width: 1500px;
+
+}
+
+#img-batera img {
+    height: 1400px;
+    width: 1400px;
+    border-radius: 100px;
+}
+
+#img-batera:hover {
+    transform: scale(1.1);
+}
+
+#nome-musica {
+    font-size: 70px;
+    font-family: 'Circular';
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+#nome-musica:hover {
+    color: rgb(73, 5, 5);
+}
+
+#nome-artista {
+    font-size: 60px;
+    font-family: 'Circular';
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+#nome-artista:hover {
+    color: rgb(73, 5, 5);
+}
+
+#linha-musica {
+    width: 80%;
+    background-color: #8d919c;
+    border: 0;
+    height: 3px;
+}
+
+#botao-musica {
+
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    width: 180px;
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: -250px;
+}
+
+.hobbies {
+    font-size: 85px;
+    text-decoration: underline;
+    margin: 100px;
+    margin-left: 400px;
+}
+
+/* Contato */
+.texto_redes {
+    text-indent: 4%;
+    font-size: 75px;
+    margin-top: -40px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 250px;
+    line-height: 125%;
+    height: 30px;
+}
+
+.texto_redes img {
+    margin-top: 40px;
+}
+
+#insta {
+    margin-left: 100px;
+}
+
+span {
+    margin-top: 100px;
+    position: absolute;
+    width: 2000px;
+}
